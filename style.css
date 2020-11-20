@@ -30,20 +30,20 @@ form input, form button {
     background: #fff;
 }
 
-form button {
+ button {
     color: #131b8a;
     background: white;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.35s ease;
+    z-index: 2; 
 }
 
-form button:hover {
+ button:hover {
     background: #131b8a;
     color: white;
 }
 
 input {
-    padding-left: 2px;
     z-index: 2;    /*adjusts the hierarchy of the text box */
 }
 .area{
